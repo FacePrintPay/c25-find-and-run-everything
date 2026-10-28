@@ -62,3 +62,5 @@ find "$HOME" -type f 2>/dev/null | while read -r file; do
   fi
 done
 echo "✅ DONE — $(date)" | tee -a "$LOG"
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=find_and_run_everything.sh
